@@ -1,0 +1,63 @@
+body{
+   width: 900px;   
+}
+.header{
+    color: aquamarine;
+}
+#name{
+       max-width: 40% ;
+      float: right;
+       margin-top: 25px;
+}
+#html5{
+    float: right;
+}
+#pantone{
+    margin-left: 320px;
+    width: 90px;
+}
+.pantone, .img{
+    margin-top: -50px;
+    margin-left: 140px;   
+    color: grey;
+}
+/*pantone p*/
+.pantone p {
+  margin-left: 200px;
+    margin-top: 20px;
+}
+
+/* Supporting */
+.supporting{
+  margin-top: 40px;
+  text-shadow: 0 2px 3px rgba(0,0,0,.4);
+  text-align:center;
+}
+.supporting img {
+    height: 120px;
+    padding-left:80px;
+  }
+.row{
+    margin-top: 10px;
+}
+.row,.h2{
+    color: aquamarine;
+    margin-left: 250px;
+}
+#footerImage{
+     width: 40px;
+   float: right;
+    margin: 30px 30px;
+}
+
+@media (min-width: 720px)
+.container {
+  width: 700px;
+}
+@media (min-width: 768px)
+.container {
+  width: 750px;
+}
+#design{
+    color: grey;
+}
